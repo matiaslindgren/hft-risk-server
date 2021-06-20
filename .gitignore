@@ -1,0 +1,12 @@
+**/CMake*
+**/cmake*
+*.a
+*.o
+*.out
+*.so
+Makefile
+bin
+cmake
+compile_commands.json
+.cache
+build
