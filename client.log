@@ -1,0 +1,15 @@
+[2021-06-20 21:41:30] INFO:tcp: Socket 5 connected to '127.0.0.1'
+[2021-06-20 21:41:30] INFO:risk_client: Sending message of type 1 to risk server
+[2021-06-20 21:41:30] INFO:risk_client: Reading response from risk server
+order 1 accepted
+[2021-06-20 21:41:30] INFO:risk_client: Sending message of type 1 to risk server
+[2021-06-20 21:41:30] INFO:risk_client: Reading response from risk server
+order 2 accepted
+[2021-06-20 21:41:30] INFO:risk_client: Sending message of type 1 to risk server
+[2021-06-20 21:41:30] INFO:risk_client: Reading response from risk server
+order 3 accepted
+[2021-06-20 21:41:30] INFO:risk_client: Sending message of type 1 to risk server
+[2021-06-20 21:41:30] INFO:risk_client: Reading response from risk server
+order 4 rejected
+[2021-06-20 21:41:30] INFO:risk_client: Sending message of type 4 to risk server
+[2021-06-20 21:41:30] INFO:risk_client: Sending message of type 2 to risk server

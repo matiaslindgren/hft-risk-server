@@ -1,0 +1,53 @@
+[2021-06-20 21:41:25] INFO:tcp: Server binding to 127.0.0.1:7001
+[2021-06-20 21:41:25] INFO:risk_service: Waiting for connections
+[2021-06-20 21:41:30] DEBUG:risk_service: New connection on socket 4, reading all messages
+[2021-06-20 21:41:30] INFO:tcp: Server received message of length 31
+[2021-06-20 21:41:30] INFO:risk_service: Handling message of type 1
+[2021-06-20 21:41:30] DEBUG:risk_service: Handling creation of order 1
+[2021-06-20 21:41:30] INFO:tcp: Server sent message of length 23 to socket 4
+[2021-06-20 21:41:30] INFO:tcp: Server received message of length 31
+[2021-06-20 21:41:30] INFO:risk_service: Handling message of type 1
+[2021-06-20 21:41:30] DEBUG:risk_service: Handling creation of order 2
+[2021-06-20 21:41:30] INFO:tcp: Server sent message of length 23 to socket 4
+[2021-06-20 21:41:30] INFO:tcp: Server received message of length 30
+[2021-06-20 21:41:30] INFO:risk_service: Handling message of type 1
+[2021-06-20 21:41:30] DEBUG:risk_service: Handling creation of order 3
+[2021-06-20 21:41:30] INFO:tcp: Server sent message of length 23 to socket 4
+[2021-06-20 21:41:30] INFO:tcp: Server received message of length 31
+[2021-06-20 21:41:30] INFO:risk_service: Handling message of type 1
+[2021-06-20 21:41:30] DEBUG:risk_service: Handling creation of order 4
+[2021-06-20 21:41:30] INFO:tcp: Server sent message of length 23 to socket 4
+[2021-06-20 21:41:30] INFO:tcp: Server received message of length 48
+[2021-06-20 21:41:30] INFO:risk_service: Handling message of type 4
+[2021-06-20 21:41:30] DEBUG:risk_service: Handling trade 1 of listing 2
+[2021-06-20 21:41:30] INFO:tcp: Server received message of length 0
+[2021-06-20 21:41:30] INFO:risk_service: 
+max buy position: 20
+max sell position: 15
+orders: 
+  id: 3
+    listing_id: 2
+    quantity: 4
+    side: B
+  id: 2
+    listing_id: 2
+    quantity: 15
+    side: S
+  id: 1
+    listing_id: 1
+    quantity: 10
+    side: B
+instrument state: 
+  id: 2
+    net_pos: -4
+    buy_qty: 4
+    sell_qty: 15
+    worst_buy_pos: 4
+    worst_sell_pos: 19
+  id: 1
+    net_pos: 0
+    buy_qty: 10
+    sell_qty: 0
+    worst_buy_pos: 10
+    worst_sell_pos: 0
+
