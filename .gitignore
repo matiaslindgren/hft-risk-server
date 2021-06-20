@@ -10,3 +10,5 @@ cmake
 compile_commands.json
 .cache
 build
+
+!CMakeLists.txt

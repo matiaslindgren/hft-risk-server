@@ -3,8 +3,8 @@
 C++17 HFT risk calculation system.
 No third-party dependencies needed.
 
-This is just a weekend hacking project.
-It is probably useless in actual trading.
+This is only a weekend project I did in 2020.
+It is probably completely useless in actual trading.
 
 ## Implemented features
 
@@ -17,7 +17,7 @@ It is probably useless in actual trading.
 
 ## Missing features
 
-* Message protocol `struct`s are not packed. It was easier to test the system this way. Encoding and decoding of packed `struct`s can be implemented later as an optimization to minimize network bandwidth.
+* Message protocol `struct`s are not packed. It was easier to test the system this way. Encoding and decoding of packed `struct`s can be implemented later as an optimization to minimize network bandwidth usage.
 
 ## Example output
 
@@ -46,7 +46,7 @@ In a second terminal, send some messages with the client to the server at `127.0
 ```
 Verify that your output matches `client.log` for the client and `server.log` for the server.
 
-### Tested systems
+### Compiled and tested on
 
 #### Linux
 * Debian 10 (buster)
