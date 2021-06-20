@@ -8,12 +8,12 @@ It is probably completely useless in actual trading.
 
 ## Implemented features
 
-* UNIX TCP server and client.
-* Efficient storage of orders and instruments in hash tables (`std::unordered_map`).
-* Rather than computing three net sums over all existing orders each time the net position is requested, the sums are updated into `InstrumentState` for each instrument each time the state of the server changes.
+* TCP server and client.
 * Message serialization.
 * Risk server capable of handling messages over TCP.
 * Risk client capable of sending messages to the risk server over TCP.
+* Trade state stored in hash tables (`std::unordered_map`).
+* Rather than computing three net sums over all existing orders each time the net position is requested, the sums are updated into `InstrumentState` for each instrument each time the state of the server changes.
 
 ## Missing features
 
